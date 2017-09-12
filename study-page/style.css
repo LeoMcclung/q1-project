@@ -1,19 +1,22 @@
-h1, h2, h3 {
+h1, h2, h3, p{
     font-family: 'Annie Use Your Telescope';
     font-weight: 900;
-    color: red;
+    /* color: red; */
   }
 
 h1 {
   font-size: 200px;
+  color: red;
 }
 
 h2 {
   font-size: 100px;
+  color: red;
 }
 
 h3 {
   font-size: 100px;
+  color: red;
 }
 
 
@@ -25,4 +28,16 @@ h3 {
   font-family: 'Annie Use Your Telescope';
   font-size: 25px;
   font-weight: bold;
+}
+.btn-large {
+  background-color: orange;
+  color: black;
+  border: 5px solid darkred;
+  font-size: 50px;
+  font-weight: 900;
+}
+
+p {
+  font-size: 25px;
+  color: orange;
 }
