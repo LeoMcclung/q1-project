@@ -1,0 +1,28 @@
+h1, h2, h3 {
+    font-family: 'Annie Use Your Telescope';
+    font-weight: 900;
+    color: red;
+  }
+
+h1 {
+  font-size: 200px;
+}
+
+h2 {
+  font-size: 100px;
+}
+
+h3 {
+  font-size: 100px;
+}
+
+
+.card {
+  border: 2px solid darkred;
+}
+
+.card-content {
+  font-family: 'Annie Use Your Telescope';
+  font-size: 25px;
+  font-weight: bold;
+}
