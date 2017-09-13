@@ -8,33 +8,30 @@ function countDown(i) {
         document.getElementById("displayDiv").innerHTML = "" + i;
         i-- || clearInterval(int);
     }, 1000);
-
-    if (i==0){
-
-    }else {
-
-    }
 }
 countDown(10);
 
-function load() {
-    window.location.href = "../result-page/index.html"
-}
+var el = document.getElementById("quiz");
+el.addEventListener("submit", userInput, false);
+
 
 
 var questionOne = document.getElementById('q1')
 var questionTwo = document.getElementById('q2')
 var questionThree = document.getElementById('q3')
 
-var correctAnswers = getAnswers()
+var correctAns1 = 3;
+var correctAns2 = 1;
+var correctAns3 = 2;
 
-function getAnswers(){
-  questionOne.value();
-  questionTwo.value();
-  questionThree.value();
-
+function userInput(){
+ var choice1 = questionOne.value;
+ var choice2 = questionTwo.value;
+ var choice3 = questionThree.value;
 }
 
-function quizResult() {
+// function quizResult(){
+//     if (choice1===correctAns1, choice2===correctAns2, choice3===correctAns3){
 
-}
+//     }
+// }
