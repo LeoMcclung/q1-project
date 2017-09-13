@@ -6,13 +6,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Annie Use Your Telescope' rel='stylesheet'>
     <link href="style.css" rel="stylesheet">
 </head>
 
 <body>
     <header>
         <div class="row">
-            <div class="col s2 offset-s5 red">
+            <div class="col s2 offset-s5" id="counter">
                 <h1 class="center-align" id="displayDiv">PANIC</h1>
 
             </div>
@@ -27,14 +28,14 @@
                             <span class="card-title"></span>
                             <p>WHICH RACE HAD THEIR ENTIRE PLANET COMPLETELY DESTROYED?</p>
                             <div class="input-field">
-                                <select>
-                                <option value="" disabled selected>WHATS THE ANSWER</option>
-                                <option value="1">A: The Duuran</option>
-                                <option value="2">B: The Thragg</option>
-                                <option value="3">C: The Vectricans</option>
-                                <option value="4">D: The Sinforans</option>
-                                <option value="5">E: None of the above</option>
-                            </select>
+                                <select id="q1">
+                                    <option value="" disabled selected>WHATS THE ANSWER</option>
+                                    <option value="1">A: The Duuran</option>
+                                    <option value="2">B: The Thragg</option>
+                                    <option value="3">C: The Vectricans</option>
+                                    <option value="4">D: The Sinforans</option>
+                                    <option value="5">E: None of the above</option>
+                                </select>
                                 <label class="label">DONT FAIL</label>
                             </div>
                         </div>
@@ -46,7 +47,7 @@
                             <span class="card-title"></span>
                             <p>WHO HAS BLUE SKIN, YELLOW EYES, AND NEVER SMILES?</p>
                             <div class="input-field">
-                                <select>
+                                <select id="q2">
                                 <option value="" disabled selected>WHATS THE ANSWER</option>
                                 <option value="1">A: Saiver Alvamog</option>
                                 <option value="2">B: Saventt Kellethor</option>
@@ -65,7 +66,7 @@
                             <span class="card-title"></span>
                             <p>THIS PLANET IS A FREAK HYBRID OF A GAS GIANT AND A TERRESTRIAL WORLD AND NOBODY KNOWS WHY</p>
                             <div class="input-field">
-                                <select>
+                                <select id="q3">
                                 <option value="" disabled selected>WHATS THE ANSWER</option>
                                 <option value="1">A: Tarag</option>
                                 <option value="2">B: Yi'lera</option>
@@ -80,13 +81,12 @@
                 </div>
             </div>
         </div>
-
-
-
-
-
-
     </main>
+    <footer>
+        <h2 class="center-align">GOT IT?
+            <a class="center-align waves-effect waves-yellow btn-large" type="submit">ANSWER</a>
+        </h2>
+    </footer>
     <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
     <script src="quiz.js"></script>

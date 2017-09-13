@@ -3,6 +3,11 @@ body {
     height: 100vh;
 }
 
+#counter {
+    border: 3px solid darkred;
+    background-color: orange;
+}
+
 .card {
     border: 3px solid darkred;
 }
@@ -12,6 +17,17 @@ body {
     color: darkred;
 }
 
-/* h1 {
+ h2 {
     font-size: 100px;
-} */
+    color: darkred;
+    font-family: 'Annie Use Your Telescope';
+} 
+
+.btn-large {
+  background-color: orange;
+  color: black;
+  border: 5px solid darkred;
+  font-size: 30px;
+  font-weight: 900;
+  font-family: 'Annie Use Your Telescope';
+}

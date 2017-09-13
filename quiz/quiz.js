@@ -6,17 +6,35 @@ $(document).ready(function() {
 function countDown(i) {
     var int = setInterval(function () {
         document.getElementById("displayDiv").innerHTML = "" + i;
-        i-- || clearInterval(int);  //if i is 0, then stop the interval
+        i-- || clearInterval(int);
     }, 1000);
+
+    if (i==0){
+
+    }else {
+
+    }
 }
 countDown(10);
 
-// element = document.getElementsByTagName('option')
+function load() {
+    window.location.href = "../result-page/index.html"
+}
 
 
+var questionOne = document.getElementById('q1')
+var questionTwo = document.getElementById('q2')
+var questionThree = document.getElementById('q3')
 
-function correctAnswers(){
-    var element = document.getElementsByTagName('option');
+var correctAnswers = getAnswers()
 
-    element[1].innerText = answerOne;
+function getAnswers(){
+  questionOne.value();
+  questionTwo.value();
+  questionThree.value();
+
+}
+
+function quizResult() {
+
 }
