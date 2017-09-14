@@ -28,8 +28,17 @@ function quizResult(){
  var choice3 = questionThree.value;
 
     if (choice1==correctAns1 && choice2==correctAns2 && choice3==correctAns3) {
-        window.location.href = "../win-page/index.html"
+        window.location.href = "../win/index.html"
     }else {
-        window.location.href = "../fail-page/index.html"
+        window.location.href = "../fail/index.html"
     }
 }
+
+// var questions = [
+//     {
+//         q:
+//     },
+//     {
+//         q:
+//     }
+// ];
