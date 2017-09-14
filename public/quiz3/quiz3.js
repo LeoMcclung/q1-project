@@ -18,9 +18,9 @@ var questionOne = document.getElementById('q1')
 var questionTwo = document.getElementById('q2')
 var questionThree = document.getElementById('q3')
 
-var correctAns1 = 3;
-var correctAns2 = 2;
-var correctAns3 = 2;
+var correctAns1 = 1;
+var correctAns2 = 1;
+var correctAns3 = 5;
 
 function quizResult(){
  var choice1 = questionOne.value;
