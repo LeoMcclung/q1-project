@@ -1,0 +1,39 @@
+body {
+    background-image: url('troll-bg1.jpg');
+    border: 10px solid black;
+    height: 100vh;
+}
+
+h1, h2, h3 {
+    font-family: 'Annie Use Your Telescope';
+    font-weight: 900;
+    color: darkred;
+    text-shadow: 5px 5px 5px black;
+}
+
+h1 {
+    font-size: 150px;
+}
+
+h2 {
+    font-size: 300px;
+}
+
+h3 {
+    font-size: 300px;
+}
+
+#ySuck {
+    margin-top: -100px;
+}
+
+.btn-large {
+  background-color: orange;
+  color: red;
+  border: 5px solid darkred;
+  margin-top: 200px;
+  font-family: 'Annie Use Your Telescope';
+  font-size: 50px;
+  font-weight: 900;
+  text-shadow: 5px 2px 5px black;
+}

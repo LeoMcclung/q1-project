@@ -21,6 +21,7 @@ body {
     font-size: 100px;
     color: darkred;
     font-family: 'Annie Use Your Telescope';
+    text-shadow: 5px 2px 5px white;
 } 
 
 .btn-large {
@@ -30,4 +31,5 @@ body {
   font-size: 30px;
   font-weight: 900;
   font-family: 'Annie Use Your Telescope';
+  text-shadow: 5px 2px 5px white;
 }
