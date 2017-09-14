@@ -30,6 +30,19 @@ fetch('https://images-api.nasa.gov/search?keywords=galaxies&description=galaxy&c
   })
   .catch(e => console.error(e));
 
-  function quizStart() {
-    window.location.href = "../quiz/index.html";
+  var quizzes = [
+    "../quiz/index.html",
+    "../quiz2/index.html",
+    "../quiz3/index.html"
+];
+
+function randomQuiz() {
+    var rand = Math.floor(Math.random() * 3);
+    return quizzes[rand];
+    
   }
+  
+
+function quizStart() {
+  window.location.href = randomQuiz();
+}
