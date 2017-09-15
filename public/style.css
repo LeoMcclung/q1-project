@@ -42,11 +42,16 @@ h3 {
   text-shadow: 5px 2px 5px white;
 }
 
+p {
+  color: white;
+  text-shadow: 5px 2px 5px black;
+}
+
 .btn-large {
   background-color: grey; opacity:0.6;
   color: black;
   border: 2px solid white;
-  margin-top: 200px;
+  margin-top: 100px;
   margin-left: 500px;
   font-family: 'Aldrich';
   font-size: 20px;
