@@ -18,20 +18,37 @@ background-repeat: no-repeat;
 
 #topBox {
   border: 2px solid white;
+  background-color: grey; opacity:0.6;
   margin-top: 50px;
 }
 
 h1 {
     font-size: 40px;
     text-shadow: 5px 3px 5px white;
+    font-family:'Aldrich';
+    text-shadow: 5px 2px 5px white;
+}
+
+h2 {
+  font-size: 30px;
+  margin-left: 250px;
+  font-family: 'Aldrich'; 
+  text-shadow: 5px 2px 5px white;
+}
+
+h3 {
+  font-size: 20px;
+  font-family: 'Aldrich';
+  text-shadow: 5px 2px 5px white;
 }
 
 .btn-large {
-  background-color: grey;
+  background-color: grey; opacity:0.6;
   color: black;
-  border: 5px solid white;
+  border: 2px solid white;
   margin-top: 200px;
-  font-family: 'Annie Use Your Telescope';
+  margin-left: 500px;
+  font-family: 'Aldrich';
   font-size: 20px;
   font-weight: 900;
   text-shadow: 5px 2px 5px white;
