@@ -1,0 +1,38 @@
+html, body {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+body {
+background-color: black;
+background-image: url("galaxy-1.jpg");
+background-position: center center;
+background-size: cover;
+background-repeat: no-repeat;
+}
+
+/* .container {
+    background-image: url("bg.jpg");
+} */
+
+#topBox {
+  border: 2px solid white;
+  margin-top: 50px;
+}
+
+h1 {
+    font-size: 40px;
+    text-shadow: 5px 3px 5px white;
+}
+
+.btn-large {
+  background-color: grey;
+  color: black;
+  border: 5px solid white;
+  margin-top: 200px;
+  font-family: 'Annie Use Your Telescope';
+  font-size: 20px;
+  font-weight: 900;
+  text-shadow: 5px 2px 5px white;
+}
