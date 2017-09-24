@@ -10,6 +10,7 @@ background-image: url("galaxy-1.jpg");
 background-position: center center;
 background-size: cover;
 background-repeat: no-repeat;
+background-attachment: fixed;
 }
 
 /* .container {
@@ -31,7 +32,7 @@ h1 {
 
 h2 {
   font-size: 30px;
-  margin-left: 250px;
+  /* margin-left: 250px; */
   font-family: 'Aldrich'; 
   text-shadow: 5px 2px 5px white;
 }
@@ -52,7 +53,7 @@ p {
   color: black;
   border: 2px solid white;
   margin-top: 100px;
-  margin-left: 500px;
+  /* margin-left: 500px; */
   font-family: 'Aldrich';
   font-size: 20px;
   font-weight: 900;
